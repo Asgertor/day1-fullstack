@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+//forskellen på @Controller og @RestController er at @RestController returnerer JSON
 @RestController
 @RequestMapping("/api/players")
 public class PlayerController {
